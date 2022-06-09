@@ -1,5 +1,16 @@
+package programmers;
+
 import java.util.*;
 
+public class test {
+
+	public static void main(String[] args) {
+		Solution T = new Solution();
+		System.out.println(T.solution("...!@BaT#*..y.abcdefghijklm"));
+	}
+
+}
+	
 class Solution {
 	public String solution(String new_id) {
 		String answer = "";
@@ -76,4 +87,4 @@ class Solution {
 		
 		return answer;
 	}
-} 
+}
