@@ -1,5 +1,3 @@
-package skt_developer;
-
 import java.util.*;
 
 public class test {
