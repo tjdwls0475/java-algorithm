@@ -20,3 +20,5 @@ class Solution {
     	for (int i=1; i<=n; i++) System.out.print(fibo[i] + " ");
     }
 }
+
+// For loop vs Recursive in Fibonachi
