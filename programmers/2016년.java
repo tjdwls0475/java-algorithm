@@ -8,17 +8,17 @@ class Solution {
         
         // Sum
         for (int i=0; i<a-1; i++) {
-            cnt += days[i];
+            cnt += numOfDays[i];
         }
         cnt += b;
         
         // Check
-        if (cnt%7 == 1) return days[day%7];
-        else if (cnt%7 == 2) return days[day%7];
-        else if (cnt%7 == 3) return days[day%7];
-        else if (cnt%7 == 4) return days[day%7];
-        else if (cnt%7 == 5) return days[day%7];
-        else if (cnt%7 == 6) return days[day%7];
-        else return cnt[day%7];
+        if (cnt%7 == 1) return days[cnt%7];
+        else if (cnt%7 == 2) return days[cnt%7];
+        else if (cnt%7 == 3) return days[cnt%7];
+        else if (cnt%7 == 4) return days[cnt%7];
+        else if (cnt%7 == 5) return days[cnt%7];
+        else if (cnt%7 == 6) return days[cnt%7];
+        else return days[cnt%7];
     }
 }
