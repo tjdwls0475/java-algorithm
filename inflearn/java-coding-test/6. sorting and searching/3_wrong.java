@@ -1,4 +1,4 @@
-// Insertion Sort
+// Insertion Sort(Wrong)
 class Solution {
 	public static void main(String[] args) {
 		int[] numbers = {1, 4, 5, 2, 6, -2};
