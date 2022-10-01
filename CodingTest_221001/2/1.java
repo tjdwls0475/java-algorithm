@@ -11,8 +11,7 @@ class Solution {
         if(checkValidity(new_id)) return new_id;
         
         int idx = getLastStringIndex(new_id);
-        //System.out.print(idx);
-        
+        // 문자열만으로 구성된 케이스와 문자열과 숫자로 구성된 케이스를 진작 분리했어야함
         if(idx == new_id.length()) {
             this.S = new_id;
             this.N = 0;
@@ -33,7 +32,7 @@ class Solution {
         }
     }
 
-        private String DFS2() {
+    private String DFS2() {
         if(N==0) {
             N++;
             return DFS2();
